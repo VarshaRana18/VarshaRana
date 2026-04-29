@@ -20,7 +20,7 @@ const skills = [
 export default function Skills() {
   return (
     <div
-      className="relative w-full max-w-6xl mx-auto overflow-hidden py-10 my-5"
+      className="relative w-full max-w-6xl mx-auto overflow-hidden py-10 my-10"
       style={{
         WebkitMaskImage:
           "linear-gradient(to right, transparent, black 20%, black 80%, transparent)",
