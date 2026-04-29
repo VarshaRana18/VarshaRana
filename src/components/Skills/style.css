@@ -1,0 +1,18 @@
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  /* 25s controls the speed. Change it to make it faster or slower! */
+  animation: marquee 35s linear infinite;
+}
+
+/* Pauses the slide when the user hovers over it */
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
