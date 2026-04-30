@@ -24,7 +24,7 @@ export default function AboutSection() {
 
           {/* RIGHT BLOCK: The Paragraph */}
           <div className="relative z-10 flex items-center max-w-xs md:mt-4 text-center md:text-left">
-            <p className="text-violet-300 text-sm md:text-2xl leading-relaxed font-mystic">
+            <p className="text-violet-300 text-md md:text-2xl leading-relaxed font-mystic">
               Architecting digital spaces with logic, precision, and a touch of
               magic.
             </p>

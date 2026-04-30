@@ -67,13 +67,13 @@ export default function HeroSection() {
 
   return (
     <>
-      <div className="w-[90vw] max-w-[1400px] min-h-[50vh] mx-auto my-5 rounded-2xl border-[1px] grid grid-cols-1 lg:grid-cols-2 p-6 lg:p-10 bg-gradient-to-r from-rose-100/60 to-purple-500/60 backdrop-blur-[3px]">
+      <div className="w-[80vw] max-w-[1400px] min-h-[75vh] mx-auto my-5 rounded-2xl border-[1px] grid grid-cols-1 lg:grid-cols-2 p-6 lg:p-3 bg-gradient-to-r from-rose-100/60 to-purple-500/60 backdrop-blur-[3px]">
         {/* Left side column */}
         <div className="flex items-center justify-center w-full h-full"></div>
 
         {/* Right side column */}
         <div className="flex items-center justify-end w-full h-full">
-          <div className="text-5xl font-mystic text-right text-violet-300 font-bold p-4 w-full flex flex-col m-10">
+          <div className="text-3xl md:text-5xl font-mystic text-right text-violet-300 font-bold py-4 px-5 md:px-9 w-full flex flex-col m-5 md:m-8">
             {displayedLines.map((lineText, index) => {
               const fullLine = mantras[currentIndex][index];
 
